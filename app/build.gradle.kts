@@ -63,7 +63,7 @@ dependencies {
     implementation("androidx.room:room-paging:2.4.0-rc01")
     implementation("androidx.room:room-ktx:2.4.0-rc01")
     implementation("com.squareup.picasso:picasso:2.71828")
-    implementation("com.google.android.gms:play-services-mlkit-face-detection:17.1.0")
+//    implementation("com.google.android.gms:play-services-mlkit-face-detection:17.1.0")
     implementation("com.github.bumptech.glide:glide:4.11.0")
 
     implementation("androidx.activity:activity-compose:1.8.1")

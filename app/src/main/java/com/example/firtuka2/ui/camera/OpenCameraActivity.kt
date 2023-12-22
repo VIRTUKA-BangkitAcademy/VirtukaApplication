@@ -33,18 +33,18 @@ import java.io.File
 //import com.google.mlkit.vision.face.FaceDetectorOptions
 //import java.util.concurrent.Executors
 //
-class OpenCameraActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityOpenCameraBinding
-    private var getFile: File? = null
-    private val uploadViewModel by viewModels<UploadImageViewModel> {
-        ViewModelFactory.getInstance(application)
-    }
-    companion object {
-        const val CAMERA_X_RESULT = 200
-    }
-
-
-}
+//class OpenCameraActivity : AppCompatActivity() {
+//    private lateinit var binding: ActivityOpenCameraBinding
+//    private var getFile: File? = null
+//    private val uploadViewModel by viewModels<UploadImageViewModel> {
+//        ViewModelFactory.getInstance(application)
+//    }
+//    companion object {
+//        const val CAMERA_X_RESULT = 200
+//    }
+//
+//
+//}
 //
 //    private lateinit var binding: ActivityOpenCameraBinding
 //    private var cameraSelector: CameraSelector = CameraSelector.DEFAULT_BACK_CAMERA

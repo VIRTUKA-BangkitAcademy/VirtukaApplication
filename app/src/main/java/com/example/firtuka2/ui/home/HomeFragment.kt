@@ -34,7 +34,8 @@ class HomeFragment : Fragment() {
     private lateinit var glassesAdapter: ListGlassesAdapter
     private lateinit var listGlassesViewModel: HomeViewModel
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
 
         binding = FragmentHomeBinding.inflate(inflater, container, false)
@@ -61,13 +62,17 @@ class HomeFragment : Fragment() {
             ViewModelProvider(this, ViewModelFactory(glassesRepository))[HomeViewModel::class.java]
 
         listGlassesViewModel =
-            ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[HomeViewModel::class.java]
+            ViewModelProvider(
+                this,
+                ViewModelProvider.NewInstanceFactory()
+            )[HomeViewModel::class.java]
 
         listGlassesViewModel.getAll()
         listGlassesViewModel.glassesPaging.observe(viewLifecycleOwner) { glasses ->
             glassesAdapter.submitData(lifecycle, glasses)
         }
     }
+}
 
 //    private fun setupAction() {
 //
@@ -138,4 +143,3 @@ class HomeFragment : Fragment() {
 //                })
 //            }
 //        }
-}
