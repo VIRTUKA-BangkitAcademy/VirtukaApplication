@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Firtuka2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_profile">Profile</string>
+    <string name="btn_try_it">Try It</string>
+    <string name="type">Type Item</string>
+    <string name="name_item">Name Item</string>
+    <string name="welcome_back">Welcome back! Glad to see you, Again!</string>
+    <string name="hint_email">Enter Your Email</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_an_account">Don’t have an account?</string>
+    <string name="register">Sign up</string>
+    <string name="hint_password">Enter Your Password</string>
+    <string name="register_halo">Hello! Register to get started</string>
+    <string name="already_have">Already have an account?</string>
+    <string name="hint_confirm_password">Confirm Your Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="camera_x">camera</string>
+    <string name="detail_glasses">Detail Glasses</string>
+    <string name="gender">Gender</string>
+    <string name="back_button">back button</string>
+    <string name="detail_frame">Detail Frame</string>
+    <string name="upload_gambar">Upload</string>
+    <string name="addDesc">Enter Your Gender</string>
+    <string name="welcome_firtuka">Welcome to Firtuka !\nThe Application to Try-On your Kacamata</string>
+    <string-array name="data_name">
+        <item>VERSACE</item>
+        <item>RAY BAN</item>
+        <item>OAKLEY</item>
+        <item>VERSACE RED</item>
+        <item>VERSACE</item>
+        <item>RAY BAN</item>
+        <item>OAKLEY</item>
+        <item>VERSACE RED</item>
+    </string-array>
+    <string-array name="data_type">
+        <item>VE1234</item>
+        <item>RX5154</item>
+        <item>OL1231</item>
+        <item>VE1251</item>
+        <item>VE1234</item>
+        <item>RX5154</item>
+        <item>OL1231</item>
+        <item>VE1251</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/kacamata1</item>
+        <item>@drawable/kacamata2</item>
+        <item>@drawable/kacamata3</item>
+        <item>@drawable/kacamata4</item>
+        <item>@drawable/kacamata1</item>
+        <item>@drawable/kacamata2</item>
+        <item>@drawable/kacamata3</item>
+        <item>@drawable/kacamata4</item>
+    </integer-array>
+</resources>
